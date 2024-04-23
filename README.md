@@ -12,6 +12,7 @@ This repository serves as a demonstration of fundamental Linux skills.
   - Find positions of specific words
   - Replace Word
 - Explanations
+- Thank you
 
 ## Setup
 
@@ -61,7 +62,9 @@ Platform: 28
 Engineer: 88
 
 4. Change “Junior” to “Senior”
-
+```bash
+sed -i 's/Junior/Senior/g' file.txt
+```
 
 ## Explanations
 
@@ -80,3 +83,17 @@ grep: Searching for lines
 -i: Case-insensitive
 
 -n: Line numbering
+
+sed: Parsing and transforming text
+
+-i: Modifies file directly
+
+'s/Junior/Senior/g': Subsitute every occurrence of Junior with Senior. g: replace all occurrences on each line
+
+## Thank you
+Thank you for your time.
+
+Please feel free to reach out to me.
+📧 mcynsiew@gmail.com
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/MdkQdz1CG2KIymkiYr" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/brooklynninenine-nbc-brooklyn-nine-b99-MdkQdz1CG2KIymkiYr">via GIPHY</a></p>
